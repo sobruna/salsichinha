@@ -1,0 +1,117 @@
+/*Salsichinha Petshop*/
+
+
+#header-style{
+    position: relative;
+    height: 100vh;
+    display: block;
+    background-color: #E8DAB2;
+    margin: 0;
+    padding: 0;
+}
+
+#footer{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #090909;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#hyperlink a{
+    color: #35B1D2;
+    font-family: 'Raleway';
+}
+
+#footer p{
+    color: #FFFFFF;
+    text-align: right;
+    margin: 16px;
+    font-family: 'Raleway';
+}
+
+.titulo{
+    font-size: 52px;
+    font-family: 'Raleway';
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 25px;
+    /*margin-top: 50%;
+    transform: translatey(-50%);*/
+}
+
+.texto-simples-titulo{
+    font-size: 26px;
+    font-family: 'Raleway';
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-style: italic;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    /*margin-top: 50%;
+    transform: translatey(-50%);*/
+}
+
+.imagem{
+    width: 370px;
+    height: 192px;
+    float: right;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#artigo{
+    margin-left: 50%;
+    transform: translatex(-50%);
+    width: 800px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    background-color: #FFFFFF;
+    font-family: 'Raleway';
+    white-space: normal !important;
+    box-sizing: content-box;
+    -webkit-box-shadow: 2px 1px 15px 4px #000000; 
+    box-shadow: 2px 1px 15px 4px #000000;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+#video{
+    margin: 50px;
+}
+
+#center-article{
+    background-color: #E8DAB2;
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: #E8DAB2;
+}
+
+.imagem2{
+    width: calc(100% - 15px);
+}
+
+#titulo-artigo{
+    font-size: 30px;
+    font-family: 'Raleway';
+}
